@@ -1,0 +1,22 @@
+{
+    "account": "account",
+    "X-VTEX-API-AppKey": "",
+    "X-VTEX-API-AppToken": "",
+    "template-name": [
+        "vtexcommerce-new-order",
+        "vtexcommerce-order-cancelled",
+        "vtexcommerce-order-change-payment",
+        "vtexcommerce-order-invoiced",
+        "vtexcommerce-order-invoiced-with-cancel-request",
+        "vtexcommerce-order-refunded",
+        "vtexcommerce-order-shipped",
+        "vtexcommerce-order-shipping-finished",
+        "vtexcommerce-order-shipping-update",
+        "vtexcommerce-payment-approved",
+        "vtexcommerce-payment-denied",
+        "vtexcommerce-payment-pending",
+        "vtexid_check_email"
+
+
+    ]
+}

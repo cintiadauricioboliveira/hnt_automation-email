@@ -1,0 +1,549 @@
+{
+	"package": null,
+	"subjectItemAttachment": {
+		"item": "Banana Prata Unidade",
+		"totalItems": 2,
+		"extraItems": 1
+	},
+	"cancellationReason": "Teste estorno pré reserva",
+	"paymentData": {
+		"giftCards": [],
+		"transactions": [
+			{
+				"isActive": true,
+				"transactionId": "9303EBC1268C4B0B8D7B90001F1EB065",
+				"merchantName": "H******************",
+				"payments": [
+					{
+						"id": "E139CBF3EBBE4152879F82ABEC0E9F64",
+						"paymentSystem": "4",
+						"paymentSystemName": "M*********",
+						"value": 520,
+						"installments": 1,
+						"referenceValue": 520,
+						"cardHolder": null,
+						"cardNumber": null,
+						"firstDigits": "520048",
+						"lastDigits": "2985",
+						"cvv2": null,
+						"expireMonth": null,
+						"expireYear": null,
+						"url": null,
+						"giftCardId": null,
+						"giftCardName": null,
+						"giftCardCaption": null,
+						"redemptionCode": null,
+						"group": "creditCard",
+						"tid": "27689470103TTNI27NVC",
+						"dueDate": null,
+						"connectorResponses": {
+							"Tid": "27689470103TTNI27NVC",
+							"ReturnCode": "00",
+							"Message": "Transacao autorizada",
+							"authId": "369792",
+							"nsu": "628003",
+							"acquirer": "Cielo30",
+							"status": "approved",
+							"authorizationId": "369792",
+							"tid": "27689470103TTNI27NVC",
+							"paymentId": "E139CBF3EBBE4152879F82ABEC0E9F64",
+							"code": "00",
+							"message": "Transacao autorizada",
+							"connectorMetadata": "[{\"name\":\"paymentIdApi\",\"value\":\"*****\"}]"
+						},
+						"giftCardProvider": null,
+						"giftCardAsDiscount": null,
+						"koinUrl": null,
+						"accountId": "43E45B0B48C64470A295D1029B024E28",
+						"parentAccountId": "C47C0AFD5B2C4726B35868F63735ED0B",
+						"bankIssuedInvoiceIdentificationNumber": null,
+						"bankIssuedInvoiceIdentificationNumberFormatted": null,
+						"bankIssuedInvoiceBarCodeNumber": null,
+						"bankIssuedInvoiceBarCodeType": null,
+						"billingAddress": {
+							"postalCode": "0*******",
+							"city": "S** P****",
+							"state": "SP",
+							"country": "BRA",
+							"street": "R** A***** d* V****",
+							"number": "5*",
+							"neighborhood": "V*** B*******",
+							"complement": "",
+							"reference": null,
+							"geoCoordinates": [
+								-51.4779552,
+								-0.0039779
+							]
+						},
+						"paymentOrigin": null
+					}
+				]
+			}
+		]
+	},
+	"cancellationRequests": null,
+	"invoiceData": null,
+	"clientProfileData": {
+		"id": "clientProfileData",
+		"email": "cintia.dauricio@qualitydigital.global",
+		"firstName": "A**",
+		"lastName": "T******",
+		"documentType": "cpf",
+		"document": "2**********",
+		"phone": "+5************",
+		"corporateName": null,
+		"tradeName": null,
+		"corporateDocument": null,
+		"stateInscription": null,
+		"corporatePhone": null,
+		"isCorporate": false,
+		"userProfileId": "19481b9e-544c-4e14-a1db-80fffdde30fb",
+		"userProfileVersion": null,
+		"customerClass": null,
+		"customerCode": null
+	},
+	"shippingData": {
+		"id": "shippingData",
+		"address": {
+			"addressType": "pickup",
+			"receiverName": "A** T******",
+			"addressId": "652",
+			"versionId": null,
+			"entityId": null,
+			"postalCode": "0****-0**",
+			"city": "S** P****",
+			"state": "SP",
+			"country": "BRA",
+			"street": "A****** S**** A****",
+			"number": "6***",
+			"neighborhood": "S**** A****",
+			"complement": "",
+			"reference": null,
+			"geoCoordinates": [
+				-51.4779552,
+				-0.0039779
+			]
+		},
+		"logisticsInfo": [
+			{
+				"itemIndex": 0,
+				"itemId": "100065",
+				"selectedDeliveryChannel": "pickup-in-point",
+				"selectedSla": "Retire na Loja (652)",
+				"lockTTL": "12d",
+				"price": 0,
+				"listPrice": 0,
+				"sellingPrice": 0,
+				"deliveryWindow": {
+					"startDateUtc": "2024-11-22T17:00:00+00:00",
+					"endDateUtc": "2024-11-22T18:00:59+00:00",
+					"price": 0
+				},
+				"deliveryCompany": null,
+				"shippingEstimate": "60m",
+				"shippingEstimateDate": "2024-11-22T17:00:00",
+				"slas": [
+					{
+						"id": "Retire na Loja (652)",
+						"name": "R*******************",
+						"shippingEstimate": "60m",
+						"shippingEstimateDate": "2024-11-22T17:00:00",
+						"deliveryWindow": {
+							"startDateUtc": "2024-11-22T17:00:00+00:00",
+							"endDateUtc": "2024-11-22T18:00:59+00:00",
+							"price": 0
+						},
+						"availableDeliveryWindows": [],
+						"deliveryIds": [
+							{
+								"courierId": "652_1",
+								"courierName": "V***********",
+								"dockId": "652",
+								"quantity": 2,
+								"warehouseId": "652",
+								"accountCarrierName": "h******************",
+								"kitItemDetails": []
+							}
+						],
+						"listPrice": 0,
+						"price": 0,
+						"deliveryChannel": "pickup-in-point",
+						"pickupStoreInfo": {
+							"additionalInfo": "- Aguarde o status \"Pronto para Retirada\".\n- Traga documento com foto e número do pedido.\n- Retire no endereço dentro do horário agendado.",
+							"address": {
+								"addressType": "pickup",
+								"receiverName": null,
+								"addressId": "652",
+								"versionId": null,
+								"entityId": null,
+								"postalCode": "0****-0**",
+								"city": "S** P****",
+								"state": "SP",
+								"country": "BRA",
+								"street": "A****** S**** A****",
+								"number": "6***",
+								"neighborhood": "S**** A****",
+								"complement": "",
+								"reference": null,
+								"geoCoordinates": [
+									-51.4779552,
+									-0.0039779
+								]
+							},
+							"dockId": null,
+							"friendlyName": "V***********",
+							"isPickupStore": true
+						},
+						"polygonName": "",
+						"lockTTL": "12d",
+						"pickupPointId": "hortifrutibrverbont_652",
+						"transitTime": "60m",
+						"pickupDistance": 0.9509297609329224
+					}
+				],
+				"shipsTo": [
+					"BRA"
+				],
+				"deliveryIds": [
+					{
+						"courierId": "652_1",
+						"courierName": "V***********",
+						"dockId": "652",
+						"quantity": 2,
+						"warehouseId": "652",
+						"accountCarrierName": "h******************",
+						"kitItemDetails": []
+					}
+				],
+				"deliveryChannels": [
+					{
+						"id": "delivery",
+						"stockBalance": 0
+					},
+					{
+						"id": "pickup-in-point",
+						"stockBalance": 0
+					}
+				],
+				"deliveryChannel": null,
+				"pickupStoreInfo": {
+					"additionalInfo": "- Aguarde o status \"Pronto para Retirada\".\n- Traga documento com foto e número do pedido.\n- Retire no endereço dentro do horário agendado.",
+					"address": {
+						"addressType": "pickup",
+						"receiverName": null,
+						"addressId": "652",
+						"versionId": null,
+						"entityId": null,
+						"postalCode": "0****-0**",
+						"city": "S** P****",
+						"state": "SP",
+						"country": "BRA",
+						"street": "A****** S**** A****",
+						"number": "6***",
+						"neighborhood": "S**** A****",
+						"complement": "",
+						"reference": null,
+						"geoCoordinates": [
+							-51.4779552,
+							-0.0039779
+						]
+					},
+					"dockId": null,
+					"friendlyName": "V***********",
+					"isPickupStore": true
+				},
+				"addressId": "652",
+				"versionId": null,
+				"entityId": null,
+				"polygonName": "",
+				"pickupPointId": "hortifrutibrverbont_652",
+				"transitTime": "60m"
+			}
+		],
+		"trackingHints": [],
+		"selectedAddresses": [
+			{
+				"addressId": "652",
+				"versionId": null,
+				"entityId": null,
+				"addressType": "pickup",
+				"receiverName": "A** T******",
+				"street": "A****** S**** A****",
+				"number": "6***",
+				"complement": "",
+				"neighborhood": "S**** A****",
+				"postalCode": "0****-0**",
+				"city": "S** P****",
+				"state": "SP",
+				"country": "BRA",
+				"reference": null,
+				"geoCoordinates": [
+					-51.4779552,
+					-0.0039779
+				]
+			}
+		],
+		"availableAddresses": [
+			{
+				"addressId": "652",
+				"versionId": null,
+				"entityId": null,
+				"addressType": "pickup",
+				"receiverName": "A** T******",
+				"street": "A****** S**** A****",
+				"number": "6***",
+				"complement": "",
+				"neighborhood": "S**** A****",
+				"postalCode": "0****-0**",
+				"city": "S** P****",
+				"state": "SP",
+				"country": "BRA",
+				"reference": null,
+				"geoCoordinates": [
+					-51.4779552,
+					-0.0039779
+				]
+			}
+		],
+		"contactInformation": []
+	},
+	"items": [
+		{
+			"additionalInfo": {
+				"categoriesIds": "/17/124/",
+				"productClusterId": "",
+				"commercialConditionId": "1",
+				"dimension": {
+					"cubicweight": 0.2,
+					"height": 10,
+					"length": 10,
+					"weight": 10,
+					"width": 10
+				},
+				"brandName": "S********",
+				"brandId": "2000001",
+				"offeringInfo": null,
+				"offeringType": null,
+				"offeringTypeId": null
+			},
+			"sellerSku": "100065",
+			"priceTable": null,
+			"priceValidUntil": "2025-11-21T22:51:47Z",
+			"callCenterOperator": null,
+			"commission": 0,
+			"freightCommission": 0,
+			"taxCode": null,
+			"catalogProvider": "vrn:vtex.catalog-api-proxy:-:naturalterra:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/100065",
+			"uniqueId": "ABB8AFAB8FC647BCA5F5E6AB845EAD1B",
+			"id": "100065",
+			"productId": "100065",
+			"productRefId": "100065",
+			"refId": "100065",
+			"ean": null,
+			"name": "B*******************",
+			"skuName": "B*******************",
+			"modalType": null,
+			"parentItemIndex": null,
+			"parentAssemblyBinding": null,
+			"assemblies": [],
+			"tax": 0,
+			"price": 260,
+			"listPrice": 260,
+			"manualPrice": null,
+			"manualPriceAppliedBy": null,
+			"sellingPrice": 260,
+			"rewardValue": 0,
+			"isGift": false,
+			"preSaleDate": null,
+			"productCategoryIds": "/17/124/",
+			"productCategories": {
+				"17": "Suplementos",
+				"124": "Energéticos"
+			},
+			"quantity": 2,
+			"seller": "hortifrutibrverbont",
+			"sellerChain": [
+				"hortifrutibrverbont"
+			],
+			"imageUrl": "https://hortifrutibr.vteximg.com.br/arquivos/ids/166838-80-80/Banana-Prata-Unidade.jpg?v=638671094111470000",
+			"detailUrl": "/banana-prata-unidade/p",
+			"components": [],
+			"bundleItems": [],
+			"attachments": [],
+			"attachmentOfferings": [],
+			"offerings": [],
+			"priceTags": [],
+			"availability": "available",
+			"measurementUnit": "un",
+			"unitMultiplier": 1,
+			"manufacturerCode": null,
+			"priceDefinition": {
+				"calculatedSellingPrice": 260,
+				"total": 520,
+				"sellingPrices": [
+					{
+						"value": 260,
+						"quantity": 2
+					}
+				]
+			}
+		}
+	],
+	"sellers": [
+		{
+			"subSellerId": "1",
+			"fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?an=hortifrutibrverbont&affiliateId=SLR&sc=2",
+			"id": "hortifrutibrverbont",
+			"name": "V***********",
+			"logo": ""
+		}
+	],
+	"giftRegistryData": null,
+	"receiptData": null,
+	"contextData": null,
+	"marketPlaceOrderId": "",
+	"marketPlaceOrderGroup": null,
+	"marketplaceServicesEndpoint": null,
+	"orderFormId": "6c47ae8948b344f69e1bdccff93a86b0",
+	"sequence": "500016",
+	"affiliateId": "",
+	"status": "",
+	"callCenterOperator": "",
+	"userProfileId": "19481b9e-544c-4e14-a1db-80fffdde30fb",
+	"hostName": "n***********",
+	"creationVersion": null,
+	"creationEnvironment": null,
+	"lastChangeVersion": null,
+	"workflowInstanceId": null,
+	"marketplacePaymentValue": null,
+	"orderId": "1478230500016-01",
+	"orderGroup": "1478230500016",
+	"state": "canceled",
+	"isCheckedIn": false,
+	"sellerOrderId": "SLR-1478230500016-01",
+	"storeId": null,
+	"checkedInPickupPointId": null,
+	"value": 520,
+	"totals": [
+		{
+			"id": "Items",
+			"name": "T**************",
+			"value": 520
+		},
+		{
+			"id": "Discounts",
+			"name": "T******************",
+			"value": 0
+		},
+		{
+			"id": "Shipping",
+			"name": "T*************",
+			"value": 0
+		},
+		{
+			"id": "Tax",
+			"name": "T************",
+			"value": 0
+		}
+	],
+	"ratesAndBenefitsData": {
+		"rateAndBenefitsIdentifiers": [],
+		"teaser": []
+	},
+	"clientPreferencesData": {
+		"locale": "pt-BR",
+		"optinNewsLetter": false
+	},
+	"commercialConditionData": null,
+	"marketingData": null,
+	"storePreferencesData": {
+		"countryCode": "BRA",
+		"saveUserData": false,
+		"timeZone": "E. South America Standard Time",
+		"currencyCode": "BRL",
+		"currencyLocale": 1046,
+		"currencySymbol": "R$",
+		"currencyFormatInfo": {
+			"currencyDecimalDigits": 2,
+			"currencyDecimalSeparator": ",",
+			"currencyGroupSeparator": ".",
+			"currencyGroupSize": 3,
+			"startsWithCurrencySymbol": true
+		}
+	},
+	"openTextField": null,
+	"itemMetadata": null,
+	"taxData": null,
+	"customData": {
+		"customApps": [
+			{
+				"fields": {
+					"cartEtag": "327a9676a02fd99bf6cea7dc400c893a"
+				},
+				"id": "faststore",
+				"major": 1
+			},
+			{
+				"fields": {
+					"hasAccepted": "false"
+				},
+				"id": "changeproducts",
+				"major": 1
+			}
+		]
+	},
+	"hooksData": null,
+	"changeData": null,
+	"subscriptionData": null,
+	"salesChannel": "2",
+	"followUpEmail": "b**********************************.v***.c**.b*",
+	"creationDate": "2024-11-21T22:56:47.9557217Z",
+	"lastChange": "2024-11-22T11:32:49.7459398Z",
+	"timeZoneCreationDate": "2024-11-21T19:56:47.9557217",
+	"timeZoneLastChange": "2024-11-22T08:32:49.7459398",
+	"isCompleted": true,
+	"merchantName": "H******************",
+	"userType": "",
+	"roundingError": 0,
+	"allowEdition": false,
+	"allowCancellation": false,
+	"isUserDataVisible": false,
+	"allowChangeSeller": false,
+	"cancellationData": {
+		"requestedByUser": false,
+		"reason": "Teste estorno pré reserva",
+		"cancellationDate": "2024-11-22T11:32:46.4088797Z"
+	},
+	"_accountInfo": {
+		"MainAccountName": "h***********",
+		"AccountName": "n***********",
+		"Cnpj": null,
+		"Id": "ba288cd9-f2a6-4aea-8ed1-89c45cb8edaa",
+		"AppId": null,
+		"IsActive": true,
+		"IsOperating": false,
+		"CreationDate": "2024-09-02T19:34:31.1467626Z",
+		"OperationDate": null,
+		"CompanyName": "A****************************************",
+		"TradingName": "N***************",
+		"City": null,
+		"Complement": null,
+		"Country": null,
+		"State": null,
+		"Address": null,
+		"District": null,
+		"Number": null,
+		"PostalCode": null,
+		"Licenses": [
+			7
+		],
+		"ParentAccountId": null,
+		"ParentAccountName": null,
+		"InactivationDate": null,
+		"Platform": "vtex",
+		"Privacy": null,
+		"HasPiiRestriction": false,
+		"Infra": null,
+		"Sponsor": "9878ce1b-25db-484b-8f3b-66927c9eceb8"
+	}
+}

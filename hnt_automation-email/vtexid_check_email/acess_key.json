@@ -1,0 +1,45 @@
+{
+	"to": [
+		{
+			"name": "f***************",
+			"email": "cintia.dauricio@qualitydigital.global"
+		}
+	],
+	"aditionalData": {
+		"accessKey": "5*****",
+		"locale": "pt-BR",
+		"userAgent": "Chrome, Mac OS X"
+	},
+	"_accountInfo": {
+		"MainAccountName": "h***********",
+		"AccountName": "n***********",
+		"Cnpj": null,
+		"Id": "ba288cd9-f2a6-4aea-8ed1-89c45cb8edaa",
+		"AppId": null,
+		"IsActive": true,
+		"IsOperating": false,
+		"CreationDate": "2024-09-02T19:34:31.1467626Z",
+		"OperationDate": null,
+		"CompanyName": "A****************************************",
+		"TradingName": "N***************",
+		"City": null,
+		"Complement": null,
+		"Country": null,
+		"State": null,
+		"Address": null,
+		"District": null,
+		"Number": null,
+		"PostalCode": null,
+		"Licenses": [
+			7
+		],
+		"ParentAccountId": null,
+		"ParentAccountName": null,
+		"InactivationDate": null,
+		"Platform": "vtex",
+		"Privacy": null,
+		"HasPiiRestriction": false,
+		"Infra": null,
+		"Sponsor": "9878ce1b-25db-484b-8f3b-66927c9eceb8"
+	}
+}

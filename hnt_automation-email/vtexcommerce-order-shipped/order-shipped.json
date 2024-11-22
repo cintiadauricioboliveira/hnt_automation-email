@@ -1,0 +1,580 @@
+{
+	"package": {
+		"items": [
+			{
+				"itemIndex": 0,
+				"quantity": 1,
+				"price": 288,
+				"description": null,
+				"unitMultiplier": 0
+			}
+		],
+		"courier": null,
+		"invoiceNumber": "1478200500006-01",
+		"description": null,
+		"invoiceValue": 637,
+		"invoiceUrl": null,
+		"issuanceDate": "2024-11-21T21:39:02+00:00",
+		"trackingNumber": "1478200500006-01",
+		"invoiceKey": null,
+		"trackingUrl": null,
+		"embeddedInvoice": "",
+		"type": "Output",
+		"courierStatus": null,
+		"cfop": null,
+		"restitutions": {},
+		"volumes": null,
+		"EnableInferItems": null
+	},
+	"subjectItemAttachment": {
+		"item": "Maçã Fuji Unidade",
+		"totalItems": 1
+	},
+	"cancellationReason": null,
+	"paymentData": {
+		"giftCards": [],
+		"transactions": [
+			{
+				"isActive": true,
+				"transactionId": "6857AB0C3B604D149DC45E227A3DEA6C",
+				"merchantName": "H******************",
+				"payments": [
+					{
+						"id": "C53833B524204A728E810B95D6C77914",
+						"paymentSystem": "4",
+						"paymentSystemName": "M*********",
+						"value": 875,
+						"installments": 1,
+						"referenceValue": 875,
+						"cardHolder": null,
+						"cardNumber": null,
+						"firstDigits": "520048",
+						"lastDigits": "2985",
+						"cvv2": null,
+						"expireMonth": null,
+						"expireYear": null,
+						"url": null,
+						"giftCardId": null,
+						"giftCardName": null,
+						"giftCardCaption": null,
+						"redemptionCode": null,
+						"group": "creditCard",
+						"tid": "27689470103TTNHFM6OC",
+						"dueDate": null,
+						"connectorResponses": {
+							"Tid": "27689470103TTNHFM6OC",
+							"ReturnCode": "00",
+							"Message": "Transacao autorizada",
+							"authId": "643431",
+							"nsu": "628001",
+							"acquirer": "Cielo30",
+							"status": "approved",
+							"authorizationId": "643431",
+							"tid": "27689470103TTNHFM6OC",
+							"paymentId": "C53833B524204A728E810B95D6C77914",
+							"code": "00",
+							"message": "Transacao autorizada",
+							"connectorMetadata": "[{\"name\":\"paymentIdApi\",\"value\":\"*****\"}]"
+						},
+						"giftCardProvider": null,
+						"giftCardAsDiscount": null,
+						"koinUrl": null,
+						"accountId": "43E45B0B48C64470A295D1029B024E28",
+						"parentAccountId": "C47C0AFD5B2C4726B35868F63735ED0B",
+						"bankIssuedInvoiceIdentificationNumber": null,
+						"bankIssuedInvoiceIdentificationNumberFormatted": null,
+						"bankIssuedInvoiceBarCodeNumber": null,
+						"bankIssuedInvoiceBarCodeType": null,
+						"billingAddress": {
+							"postalCode": "0*******",
+							"city": "S** P****",
+							"state": "SP",
+							"country": "BRA",
+							"street": "R** A***** d* V****",
+							"number": "5*",
+							"neighborhood": "V*** B*******",
+							"complement": "",
+							"reference": null,
+							"geoCoordinates": [
+								-51.4779552,
+								-0.0039779
+							]
+						},
+						"paymentOrigin": null
+					}
+				]
+			}
+		]
+	},
+	"cancellationRequests": null,
+	"invoiceData": null,
+	"clientProfileData": {
+		"id": "clientProfileData",
+		"email": "cintia.dauricio@qualitydigital.global",
+		"firstName": "A**",
+		"lastName": "T******",
+		"documentType": "cpf",
+		"document": "2**********",
+		"phone": "+5************",
+		"corporateName": null,
+		"tradeName": null,
+		"corporateDocument": null,
+		"stateInscription": null,
+		"corporatePhone": null,
+		"isCorporate": false,
+		"userProfileId": "19481b9e-544c-4e14-a1db-80fffdde30fb",
+		"userProfileVersion": null,
+		"customerClass": null,
+		"customerCode": null
+	},
+	"shippingData": {
+		"id": "shippingData",
+		"address": {
+			"addressType": "pickup",
+			"receiverName": "A** T******",
+			"addressId": "652",
+			"versionId": null,
+			"entityId": null,
+			"postalCode": "0****-0**",
+			"city": "S** P****",
+			"state": "SP",
+			"country": "BRA",
+			"street": "A****** S**** A****",
+			"number": "6***",
+			"neighborhood": "S**** A****",
+			"complement": "",
+			"reference": null,
+			"geoCoordinates": [
+				-51.4779552,
+				-0.0039779
+			]
+		},
+		"logisticsInfo": [
+			{
+				"itemIndex": 0,
+				"itemId": "100172",
+				"selectedDeliveryChannel": "pickup-in-point",
+				"selectedSla": "Retire na Loja (652)",
+				"lockTTL": "12d",
+				"price": 0,
+				"listPrice": 0,
+				"sellingPrice": 0,
+				"deliveryWindow": {
+					"startDateUtc": "2024-11-21T19:00:00+00:00",
+					"endDateUtc": "2024-11-21T20:00:59+00:00",
+					"price": 0
+				},
+				"deliveryCompany": null,
+				"shippingEstimate": "60m",
+				"shippingEstimateDate": "2024-11-21T19:00:00",
+				"slas": [
+					{
+						"id": "Retire na Loja (652)",
+						"name": "R*******************",
+						"shippingEstimate": "60m",
+						"shippingEstimateDate": "2024-11-21T19:00:00",
+						"deliveryWindow": {
+							"startDateUtc": "2024-11-21T19:00:00+00:00",
+							"endDateUtc": "2024-11-21T20:00:59+00:00",
+							"price": 0
+						},
+						"availableDeliveryWindows": [],
+						"deliveryIds": [
+							{
+								"courierId": "652_1",
+								"courierName": "V***********",
+								"dockId": "652",
+								"quantity": 2,
+								"warehouseId": "652",
+								"accountCarrierName": "h******************",
+								"kitItemDetails": []
+							}
+						],
+						"listPrice": 0,
+						"price": 0,
+						"deliveryChannel": "pickup-in-point",
+						"pickupStoreInfo": {
+							"additionalInfo": "- Aguarde o status \"Pronto para Retirada\".\n- Traga documento com foto e número do pedido.\n- Retire no endereço dentro do horário agendado.",
+							"address": {
+								"addressType": "pickup",
+								"receiverName": null,
+								"addressId": "652",
+								"versionId": null,
+								"entityId": null,
+								"postalCode": "0****-0**",
+								"city": "S** P****",
+								"state": "SP",
+								"country": "BRA",
+								"street": "A****** S**** A****",
+								"number": "6***",
+								"neighborhood": "S**** A****",
+								"complement": "",
+								"reference": null,
+								"geoCoordinates": [
+									-51.4779552,
+									-0.0039779
+								]
+							},
+							"dockId": null,
+							"friendlyName": "V***********",
+							"isPickupStore": true
+						},
+						"polygonName": "",
+						"lockTTL": "12d",
+						"pickupPointId": "hortifrutibrverbont_652",
+						"transitTime": "60m",
+						"pickupDistance": 0
+					}
+				],
+				"shipsTo": [
+					"BRA"
+				],
+				"deliveryIds": [
+					{
+						"courierId": "652_1",
+						"courierName": "V***********",
+						"dockId": "652",
+						"quantity": 2,
+						"warehouseId": "652",
+						"accountCarrierName": "h******************",
+						"kitItemDetails": []
+					}
+				],
+				"deliveryChannels": [
+					{
+						"id": "delivery",
+						"stockBalance": 0
+					},
+					{
+						"id": "pickup-in-point",
+						"stockBalance": 0
+					}
+				],
+				"deliveryChannel": null,
+				"pickupStoreInfo": {
+					"additionalInfo": "- Aguarde o status \"Pronto para Retirada\".\n- Traga documento com foto e número do pedido.\n- Retire no endereço dentro do horário agendado.",
+					"address": {
+						"addressType": "pickup",
+						"receiverName": null,
+						"addressId": "652",
+						"versionId": null,
+						"entityId": null,
+						"postalCode": "0****-0**",
+						"city": "S** P****",
+						"state": "SP",
+						"country": "BRA",
+						"street": "A****** S**** A****",
+						"number": "6***",
+						"neighborhood": "S**** A****",
+						"complement": "",
+						"reference": null,
+						"geoCoordinates": [
+							-51.4779552,
+							-0.0039779
+						]
+					},
+					"dockId": null,
+					"friendlyName": "V***********",
+					"isPickupStore": true
+				},
+				"addressId": "652",
+				"versionId": null,
+				"entityId": null,
+				"polygonName": "",
+				"pickupPointId": "hortifrutibrverbont_652",
+				"transitTime": "60m"
+			}
+		],
+		"trackingHints": [],
+		"selectedAddresses": [
+			{
+				"addressId": "652",
+				"versionId": null,
+				"entityId": null,
+				"addressType": "pickup",
+				"receiverName": "A** T******",
+				"street": "A****** S**** A****",
+				"number": "6***",
+				"complement": "",
+				"neighborhood": "S**** A****",
+				"postalCode": "0****-0**",
+				"city": "S** P****",
+				"state": "SP",
+				"country": "BRA",
+				"reference": null,
+				"geoCoordinates": [
+					-51.4779552,
+					-0.0039779
+				]
+			}
+		],
+		"availableAddresses": [
+			{
+				"addressId": "652",
+				"versionId": null,
+				"entityId": null,
+				"addressType": "pickup",
+				"receiverName": "A** T******",
+				"street": "A****** S**** A****",
+				"number": "6***",
+				"complement": "",
+				"neighborhood": "S**** A****",
+				"postalCode": "0****-0**",
+				"city": "S** P****",
+				"state": "SP",
+				"country": "BRA",
+				"reference": null,
+				"geoCoordinates": [
+					-51.4779552,
+					-0.0039779
+				]
+			}
+		],
+		"contactInformation": []
+	},
+	"items": [
+		{
+			"additionalInfo": {
+				"categoriesIds": "/6/63/",
+				"productClusterId": "139,144",
+				"commercialConditionId": "1",
+				"dimension": {
+					"cubicweight": 0.18,
+					"height": 10,
+					"length": 10,
+					"weight": 10,
+					"width": 10
+				},
+				"brandName": "H*********",
+				"brandId": "2000000",
+				"offeringInfo": null,
+				"offeringType": null,
+				"offeringTypeId": null
+			},
+			"sellerSku": "100172",
+			"priceTable": null,
+			"priceValidUntil": "2025-11-21T20:14:36Z",
+			"callCenterOperator": null,
+			"commission": 0,
+			"freightCommission": 0,
+			"taxCode": null,
+			"catalogProvider": "vrn:vtex.catalog-api-proxy:-:naturalterra:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/100172",
+			"uniqueId": "CDA8505367084EA1AFAA6D6CD65FB585",
+			"id": "100172",
+			"productId": "100172",
+			"productRefId": "100172",
+			"refId": "100172",
+			"ean": null,
+			"name": "M****************",
+			"skuName": "M****************",
+			"modalType": null,
+			"parentItemIndex": null,
+			"parentAssemblyBinding": null,
+			"assemblies": [],
+			"tax": 0,
+			"price": 288,
+			"listPrice": 288,
+			"manualPrice": null,
+			"manualPriceAppliedBy": null,
+			"sellingPrice": 288,
+			"rewardValue": 0,
+			"isGift": false,
+			"preSaleDate": null,
+			"productCategoryIds": "/6/63/",
+			"productCategories": {
+				"6": "Hortifruti",
+				"63": "Frutas"
+			},
+			"quantity": 1,
+			"seller": "hortifrutibrverbont",
+			"sellerChain": [
+				"hortifrutibrverbont"
+			],
+			"imageUrl": "https://hortifrutibr.vteximg.com.br/arquivos/ids/171620-80-80/Maca-Fuji-Unidade.jpg?v=638671094707230000",
+			"detailUrl": "/maca-fuji-unidade/p",
+			"components": [],
+			"bundleItems": [],
+			"attachments": [],
+			"attachmentOfferings": [
+				{
+					"name": "O*********",
+					"required": false,
+					"schema": {
+						"Observacao": {
+							"maximumNumberOfCharacters": 150,
+							"domain": []
+						}
+					}
+				}
+			],
+			"offerings": [],
+			"priceTags": [],
+			"availability": "available",
+			"measurementUnit": "un",
+			"unitMultiplier": 1,
+			"manufacturerCode": null,
+			"priceDefinition": {
+				"calculatedSellingPrice": 288,
+				"total": 576,
+				"sellingPrices": [
+					{
+						"value": 288,
+						"quantity": 2
+					}
+				]
+			}
+		}
+	],
+	"sellers": [
+		{
+			"subSellerId": "1",
+			"fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?an=hortifrutibrverbont&affiliateId=SLR&sc=2",
+			"id": "hortifrutibrverbont",
+			"name": "V***********",
+			"logo": ""
+		}
+	],
+	"giftRegistryData": null,
+	"receiptData": null,
+	"contextData": null,
+	"marketPlaceOrderId": "",
+	"marketPlaceOrderGroup": null,
+	"marketplaceServicesEndpoint": null,
+	"orderFormId": "0b6c6f6aaf4143289f197b1a143820e7",
+	"sequence": "500006",
+	"affiliateId": "",
+	"status": "",
+	"callCenterOperator": "",
+	"userProfileId": "19481b9e-544c-4e14-a1db-80fffdde30fb",
+	"hostName": "n***********",
+	"creationVersion": null,
+	"creationEnvironment": null,
+	"lastChangeVersion": null,
+	"workflowInstanceId": null,
+	"marketplacePaymentValue": null,
+	"orderId": "1478200500006-01",
+	"orderGroup": "1478200500006",
+	"state": "payment-approved",
+	"isCheckedIn": false,
+	"sellerOrderId": "SLR-1478200500006-01",
+	"storeId": null,
+	"checkedInPickupPointId": null,
+	"value": 875,
+	"totals": [
+		{
+			"id": "Items",
+			"name": "T**************",
+			"value": 875
+		},
+		{
+			"id": "Discounts",
+			"name": "T******************",
+			"value": 0
+		},
+		{
+			"id": "Shipping",
+			"name": "T*************",
+			"value": 0
+		},
+		{
+			"id": "Tax",
+			"name": "T************",
+			"value": 0
+		}
+	],
+	"ratesAndBenefitsData": {
+		"rateAndBenefitsIdentifiers": [],
+		"teaser": []
+	},
+	"clientPreferencesData": {
+		"locale": "pt-BR",
+		"optinNewsLetter": false
+	},
+	"commercialConditionData": null,
+	"marketingData": null,
+	"storePreferencesData": {
+		"countryCode": "BRA",
+		"saveUserData": false,
+		"timeZone": "E. South America Standard Time",
+		"currencyCode": "BRL",
+		"currencyLocale": 1046,
+		"currencySymbol": "R$",
+		"currencyFormatInfo": {
+			"currencyDecimalDigits": 2,
+			"currencyDecimalSeparator": ",",
+			"currencyGroupSeparator": ".",
+			"currencyGroupSize": 3,
+			"startsWithCurrencySymbol": true
+		}
+	},
+	"openTextField": null,
+	"itemMetadata": null,
+	"taxData": null,
+	"customData": {
+		"customApps": [
+			{
+				"fields": {
+					"cartEtag": "6fd595cb40e3d55276fc0fd761d966d7"
+				},
+				"id": "faststore",
+				"major": 1
+			},
+			{
+				"fields": {
+					"hasAccepted": "false"
+				},
+				"id": "changeproducts",
+				"major": 1
+			}
+		]
+	},
+	"hooksData": null,
+	"changeData": null,
+	"subscriptionData": null,
+	"salesChannel": "2",
+	"followUpEmail": "e**********************************.v***.c**.b*",
+	"creationDate": "2024-11-21T20:16:30.6393931Z",
+	"lastChange": "2024-11-21T20:16:40.9628116Z",
+	"timeZoneCreationDate": "2024-11-21T17:16:30.6393931",
+	"timeZoneLastChange": "2024-11-21T17:16:40.9628116",
+	"isCompleted": true,
+	"merchantName": "H******************",
+	"userType": "",
+	"roundingError": 0,
+	"allowEdition": false,
+	"allowCancellation": false,
+	"isUserDataVisible": false,
+	"allowChangeSeller": false,
+	"_accountInfo": {
+		"MainAccountName": "h***********",
+		"AccountName": "n***********",
+		"Cnpj": null,
+		"Id": "ba288cd9-f2a6-4aea-8ed1-89c45cb8edaa",
+		"AppId": null,
+		"IsActive": true,
+		"IsOperating": false,
+		"CreationDate": "2024-09-02T19:34:31.1467626Z",
+		"OperationDate": null,
+		"CompanyName": "A****************************************",
+		"TradingName": "N***************",
+		"City": null,
+		"Complement": null,
+		"Country": null,
+		"State": null,
+		"Address": null,
+		"District": null,
+		"Number": null,
+		"PostalCode": null,
+		"Licenses": [
+			7
+		],
+		"ParentAccountId": null,
+		"ParentAccountName": null,
+		"InactivationDate": null,
+		"Platform": "vtex",
+		"Privacy": null,
+		"HasPiiRestriction": false,
+		"Infra": null,
+		"Sponsor": "9878ce1b-25db-484b-8f3b-66927c9eceb8"
+	}
+}

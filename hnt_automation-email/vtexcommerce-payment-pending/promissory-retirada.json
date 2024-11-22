@@ -1,0 +1,527 @@
+{
+  "orders": [
+    {
+      "package": null,
+      "subjectItemAttachment": {
+        "item": "Banana Nanica Unidad...",
+        "totalItems": 2,
+        "extraItems": 1
+      },
+      "cancellationReason": null,
+      "paymentData": {
+        "giftCards": [],
+        "transactions": [
+          {
+            "isActive": true,
+            "transactionId": "4629FC42508C417FADED4AE668DDD47E",
+            "merchantName": "H**************************",
+            "payments": [
+              {
+                "id": "E234242DF05D4CD282EC7E46D22D68E1",
+                "paymentSystem": "201",
+                "paymentSystemName": "P*******************",
+                "value": 310,
+                "installments": 1,
+                "referenceValue": 310,
+                "cardHolder": null,
+                "cardNumber": null,
+                "firstDigits": null,
+                "lastDigits": null,
+                "cvv2": null,
+                "expireMonth": null,
+                "expireYear": null,
+                "url": null,
+                "giftCardId": null,
+                "giftCardName": null,
+                "giftCardCaption": null,
+                "redemptionCode": null,
+                "group": "promissory",
+                "tid": null,
+                "dueDate": null,
+                "connectorResponses": {},
+                "giftCardProvider": null,
+                "giftCardAsDiscount": null,
+                "koinUrl": null,
+                "accountId": null,
+                "parentAccountId": null,
+                "bankIssuedInvoiceIdentificationNumber": null,
+                "bankIssuedInvoiceIdentificationNumberFormatted": null,
+                "bankIssuedInvoiceBarCodeNumber": null,
+                "bankIssuedInvoiceBarCodeType": null,
+                "billingAddress": null,
+                "paymentOrigin": null
+              }
+            ]
+          }
+        ]
+      },
+      "cancellationRequests": null,
+      "invoiceData": null,
+      "clientProfileData": {
+        "id": "clientProfileData",
+        "email": "cintia.dauricio@qualitydigital.global",
+        "firstName": "P****",
+        "lastName": "j*****",
+        "documentType": "cpf",
+        "document": "1**********",
+        "phone": "+5************",
+        "corporateName": null,
+        "tradeName": null,
+        "corporateDocument": null,
+        "stateInscription": null,
+        "corporatePhone": null,
+        "isCorporate": false,
+        "userProfileId": "9109797b-2019-4d0d-b31e-9335f5758300",
+        "userProfileVersion": null,
+        "customerClass": null,
+        "customerCode": null
+      },
+      "shippingData": {
+        "id": "shippingData",
+        "address": {
+          "addressType": "pickup",
+          "receiverName": "P**** j*****",
+          "addressId": "652",
+          "versionId": null,
+          "entityId": null,
+          "postalCode": "0****-0**",
+          "city": "S** P****",
+          "state": "SP",
+          "country": "BRA",
+          "street": "A****** S**** A****",
+          "number": "6***",
+          "neighborhood": "S**** A****",
+          "complement": "",
+          "reference": null,
+          "geoCoordinates": [-51.4779552, -0.0039779]
+        },
+        "logisticsInfo": [
+          {
+            "itemIndex": 0,
+            "itemId": "100063",
+            "selectedDeliveryChannel": "pickup-in-point",
+            "selectedSla": "Retire na Loja (652)",
+            "lockTTL": "10d",
+            "price": 0,
+            "listPrice": 0,
+            "sellingPrice": 0,
+            "deliveryWindow": {
+              "startDateUtc": "2024-11-18T17:00:00+00:00",
+              "endDateUtc": "2024-11-18T18:00:59+00:00",
+              "price": 0
+            },
+            "deliveryCompany": null,
+            "shippingEstimate": "60m",
+            "shippingEstimateDate": "2024-11-18T17:00:00",
+            "slas": [
+              {
+                "id": "Retire na Loja (652)",
+                "name": "R*******************",
+                "shippingEstimate": "60m",
+                "shippingEstimateDate": "2024-11-18T17:00:00",
+                "deliveryWindow": {
+                  "startDateUtc": "2024-11-18T17:00:00+00:00",
+                  "endDateUtc": "2024-11-18T18:00:59+00:00",
+                  "price": 0
+                },
+                "availableDeliveryWindows": [],
+                "deliveryIds": [
+                  {
+                    "courierId": "652_1",
+                    "courierName": "V***********",
+                    "dockId": "652",
+                    "quantity": 2,
+                    "warehouseId": "652",
+                    "accountCarrierName": "h**************************",
+                    "kitItemDetails": []
+                  }
+                ],
+                "listPrice": 0,
+                "price": 0,
+                "deliveryChannel": "pickup-in-point",
+                "pickupStoreInfo": {
+                  "additionalInfo": "- Aguarde o status \"Pronto para Retirada\".\n- Traga documento com foto e número do pedido.\n- Retire no endereço dentro do horário agendado.",
+                  "address": {
+                    "addressType": "pickup",
+                    "receiverName": null,
+                    "addressId": "652",
+                    "versionId": null,
+                    "entityId": null,
+                    "postalCode": "0****-0**",
+                    "city": "S** P****",
+                    "state": "SP",
+                    "country": "BRA",
+                    "street": "A****** S**** A****",
+                    "number": "6***",
+                    "neighborhood": "S**** A****",
+                    "complement": "",
+                    "reference": null,
+                    "geoCoordinates": [-51.4779552, -0.0039779]
+                  },
+                  "dockId": null,
+                  "friendlyName": "V***********",
+                  "isPickupStore": true
+                },
+                "polygonName": "",
+                "lockTTL": "10d",
+                "pickupPointId": "hortifrutibrqantverbodivino_652",
+                "transitTime": "60m",
+                "pickupDistance": 0
+              }
+            ],
+            "shipsTo": ["BRA"],
+            "deliveryIds": [
+              {
+                "courierId": "652_1",
+                "courierName": "V***********",
+                "dockId": "652",
+                "quantity": 2,
+                "warehouseId": "652",
+                "accountCarrierName": "h**************************",
+                "kitItemDetails": []
+              }
+            ],
+            "deliveryChannels": [
+              {
+                "id": "delivery",
+                "stockBalance": 0
+              },
+              {
+                "id": "pickup-in-point",
+                "stockBalance": 0
+              }
+            ],
+            "deliveryChannel": null,
+            "pickupStoreInfo": {
+              "additionalInfo": "- Aguarde o status \"Pronto para Retirada\".\n- Traga documento com foto e número do pedido.\n- Retire no endereço dentro do horário agendado.",
+              "address": {
+                "addressType": "pickup",
+                "receiverName": null,
+                "addressId": "652",
+                "versionId": null,
+                "entityId": null,
+                "postalCode": "0****-0**",
+                "city": "S** P****",
+                "state": "SP",
+                "country": "BRA",
+                "street": "A****** S**** A****",
+                "number": "6***",
+                "neighborhood": "S**** A****",
+                "complement": "",
+                "reference": null,
+                "geoCoordinates": [-51.4779552, -0.0039779]
+              },
+              "dockId": null,
+              "friendlyName": "V***********",
+              "isPickupStore": true
+            },
+            "addressId": "652",
+            "versionId": null,
+            "entityId": null,
+            "polygonName": "",
+            "pickupPointId": "hortifrutibrqantverbodivino_652",
+            "transitTime": "60m"
+          }
+        ],
+        "trackingHints": [],
+        "selectedAddresses": [
+          {
+            "addressId": "652",
+            "versionId": null,
+            "entityId": null,
+            "addressType": "pickup",
+            "receiverName": "P**** j*****",
+            "street": "A****** S**** A****",
+            "number": "6***",
+            "complement": "",
+            "neighborhood": "S**** A****",
+            "postalCode": "0****-0**",
+            "city": "S** P****",
+            "state": "SP",
+            "country": "BRA",
+            "reference": null,
+            "geoCoordinates": [-51.4779552, -0.0039779]
+          }
+        ],
+        "availableAddresses": [
+          {
+            "addressId": "652",
+            "versionId": null,
+            "entityId": null,
+            "addressType": "pickup",
+            "receiverName": "P**** j*****",
+            "street": "A****** S**** A****",
+            "number": "6***",
+            "complement": "",
+            "neighborhood": "S**** A****",
+            "postalCode": "0****-0**",
+            "city": "S** P****",
+            "state": "SP",
+            "country": "BRA",
+            "reference": null,
+            "geoCoordinates": [-51.4779552, -0.0039779]
+          }
+        ],
+        "contactInformation": []
+      },
+      "items": [
+        {
+          "additionalInfo": {
+            "categoriesIds": "/1/2/",
+            "productClusterId": "",
+            "commercialConditionId": "1",
+            "dimension": {
+              "cubicweight": 0.155,
+              "height": 10,
+              "length": 10,
+              "weight": 10,
+              "width": 10
+            },
+            "brandName": "H*********",
+            "brandId": "2000000",
+            "offeringInfo": null,
+            "offeringType": null,
+            "offeringTypeId": null
+          },
+          "sellerSku": "100063",
+          "priceTable": null,
+          "priceValidUntil": "2025-11-18T18:09:44Z",
+          "callCenterOperator": null,
+          "commission": 0,
+          "freightCommission": 0,
+          "taxCode": null,
+          "catalogProvider": "vrn:vtex.catalog-api-proxy:-:naturaldaterraqa:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/100063",
+          "uniqueId": "B26A51212A5747F79C49DA594DDD8AE6",
+          "id": "100063",
+          "productId": "100063",
+          "productRefId": "100063",
+          "refId": "100063",
+          "ean": null,
+          "name": "B********************",
+          "skuName": "B********************",
+          "modalType": null,
+          "parentItemIndex": null,
+          "parentAssemblyBinding": null,
+          "assemblies": [],
+          "tax": 0,
+          "price": 155,
+          "listPrice": 155,
+          "manualPrice": null,
+          "manualPriceAppliedBy": null,
+          "sellingPrice": 155,
+          "rewardValue": 0,
+          "isGift": false,
+          "preSaleDate": null,
+          "productCategoryIds": "/1/2/",
+          "productCategories": {
+            "1": "Hortifruti",
+            "2": "Frutas"
+          },
+          "quantity": 2,
+          "seller": "hortifrutibrqantverbodivino",
+          "sellerChain": ["hortifrutibrqantverbodivino"],
+          "imageUrl": "https://hortifrutibrqa.vteximg.com.br/arquivos/ids/156951-80-80/Banana-Nanica-Unidade.jpg?v=638645929485830000",
+          "detailUrl": "/banana-nanica-unidade/p",
+          "components": [],
+          "bundleItems": [],
+          "attachments": [
+            {
+              "name": "O*********",
+              "content": {
+                "Observacao": "teste"
+              }
+            }
+          ],
+          "attachmentOfferings": [
+            {
+              "name": "O*********",
+              "required": false,
+              "schema": {
+                "Observacao": {
+                  "maximumNumberOfCharacters": 150,
+                  "domain": []
+                }
+              }
+            }
+          ],
+          "offerings": [],
+          "priceTags": [],
+          "availability": "available",
+          "measurementUnit": "kg",
+          "unitMultiplier": 1,
+          "manufacturerCode": null,
+          "priceDefinition": {
+            "calculatedSellingPrice": 155,
+            "total": 310,
+            "sellingPrices": [
+              {
+                "value": 155,
+                "quantity": 2
+              }
+            ]
+          }
+        }
+      ],
+      "sellers": [
+        {
+          "subSellerId": "1",
+          "fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?an=hortifrutibrqantverbodivino&affiliateId=SLR&sc=2",
+          "id": "hortifrutibrqantverbodivino",
+          "name": "V***********",
+          "logo": ""
+        }
+      ],
+      "giftRegistryData": null,
+      "receiptData": null,
+      "contextData": null,
+      "marketPlaceOrderId": "",
+      "marketPlaceOrderGroup": null,
+      "marketplaceServicesEndpoint": null,
+      "orderFormId": "6f58c9828f16479abcfc6690c4f20bdc",
+      "sequence": "500079",
+      "affiliateId": "",
+      "status": "",
+      "callCenterOperator": "",
+      "userProfileId": "9109797b-2019-4d0d-b31e-9335f5758300",
+      "hostName": "n***************",
+      "creationVersion": null,
+      "creationEnvironment": null,
+      "lastChangeVersion": null,
+      "workflowInstanceId": null,
+      "marketplacePaymentValue": null,
+      "orderId": "1477460500079-01",
+      "orderGroup": "1477460500079",
+      "state": "payment-approved",
+      "isCheckedIn": false,
+      "sellerOrderId": "SLR-1477460500079-01",
+      "storeId": null,
+      "checkedInPickupPointId": null,
+      "value": 310,
+      "totals": [
+        {
+          "id": "Items",
+          "name": "T**************",
+          "value": 310
+        },
+        {
+          "id": "Discounts",
+          "name": "T******************",
+          "value": 0
+        },
+        {
+          "id": "Shipping",
+          "name": "T*************",
+          "value": 0
+        },
+        {
+          "id": "Tax",
+          "name": "T************",
+          "value": 0
+        }
+      ],
+      "ratesAndBenefitsData": {
+        "rateAndBenefitsIdentifiers": [],
+        "teaser": []
+      },
+      "clientPreferencesData": {
+        "locale": "pt-BR",
+        "optinNewsLetter": false
+      },
+      "commercialConditionData": null,
+      "marketingData": null,
+      "storePreferencesData": {
+        "countryCode": "BRA",
+        "saveUserData": false,
+        "timeZone": "E. South America Standard Time",
+        "currencyCode": "BRL",
+        "currencyLocale": 1046,
+        "currencySymbol": "R$",
+        "currencyFormatInfo": {
+          "currencyDecimalDigits": 2,
+          "currencyDecimalSeparator": ",",
+          "currencyGroupSeparator": ".",
+          "currencyGroupSize": 3,
+          "startsWithCurrencySymbol": true
+        }
+      },
+      "openTextField": null,
+      "itemMetadata": null,
+      "taxData": null,
+      "customData": {
+        "customApps": [
+          {
+            "fields": {
+              "cartEtag": "16ee60dd8008c3af574dc167c88edd33"
+            },
+            "id": "faststore",
+            "major": 1
+          },
+          {
+            "fields": {
+              "hasAccepted": "false"
+            },
+            "id": "changeproducts",
+            "major": 1
+          }
+        ]
+      },
+      "hooksData": null,
+      "changeData": null,
+      "subscriptionData": null,
+      "salesChannel": "2",
+      "followUpEmail": "9**********************************.v***.c**.b*",
+      "creationDate": "2024-11-18T18:10:09.0961769Z",
+      "lastChange": "2024-11-18T18:10:18.8686248Z",
+      "timeZoneCreationDate": "2024-11-18T15:10:09.0961769",
+      "timeZoneLastChange": "2024-11-18T15:10:18.8686248",
+      "isCompleted": true,
+      "merchantName": "H**************************",
+      "userType": "",
+      "roundingError": 0,
+      "allowEdition": false,
+      "allowCancellation": false,
+      "isUserDataVisible": false,
+      "allowChangeSeller": false
+    }
+  ],
+  "ordersUrl": "http://naturaldaterraqa.myvtex.com/account#/orders",
+  "orderGroup": "1477460500079",
+  "subjectItemAttachment": {
+    "item": "Banana Nanica Unidad...",
+    "totalItems": 2,
+    "extraItems": 1
+  },
+  "split": true,
+  "totalValue": 310,
+  "callCenterOperatorData": null,
+  "_accountInfo": {
+    "MainAccountName": "h*************",
+    "AccountName": "n***************",
+    "Cnpj": null,
+    "Id": "fb4c2424-7c45-4ffd-92c1-762d8295c8c3",
+    "AppId": null,
+    "IsActive": true,
+    "IsOperating": false,
+    "CreationDate": "2024-10-02T17:58:38.8365792Z",
+    "OperationDate": null,
+    "CompanyName": "A****************************************",
+    "TradingName": "N***************",
+    "City": null,
+    "Complement": null,
+    "Country": null,
+    "State": null,
+    "Address": null,
+    "District": null,
+    "Number": null,
+    "PostalCode": null,
+    "Licenses": [7],
+    "ParentAccountId": null,
+    "ParentAccountName": null,
+    "InactivationDate": null,
+    "Platform": "vtex",
+    "Privacy": null,
+    "HasPiiRestriction": false,
+    "Infra": null,
+    "Sponsor": "5d505135-0e78-49b5-9b42-2889ecca0812"
+  }
+}

@@ -1,0 +1,1024 @@
+{
+	"package": {
+		"items": [
+			{
+				"itemIndex": 0,
+				"quantity": 2,
+				"price": 349,
+				"description": null,
+				"unitMultiplier": 0
+			},
+			{
+				"itemIndex": 1,
+				"quantity": 1,
+				"price": 500,
+				"description": null,
+				"unitMultiplier": 0
+			},
+			{
+				"itemIndex": 2,
+				"quantity": 2,
+				"price": 300,
+				"description": null,
+				"unitMultiplier": 0
+			}
+		],
+		"courier": null,
+		"invoiceNumber": "1478200500005-01",
+		"description": null,
+		"invoiceValue": 1798,
+		"invoiceUrl": null,
+		"issuanceDate": "2024-11-21T21:37:54+00:00",
+		"trackingNumber": "1478200500005-01",
+		"invoiceKey": null,
+		"trackingUrl": null,
+		"embeddedInvoice": "",
+		"type": "Output",
+		"courierStatus": null,
+		"cfop": null,
+		"restitutions": {},
+		"volumes": null,
+		"EnableInferItems": null
+	},
+	"subjectItemAttachment": {
+		"item": "REFRI COCA COLA LT 2...",
+		"totalItems": 5,
+		"extraItems": 4
+	},
+	"cancellationReason": null,
+	"paymentData": {
+		"giftCards": [],
+		"transactions": [
+			{
+				"isActive": true,
+				"transactionId": "5040A2C020814B2D960B27210BB13909",
+				"merchantName": "H******************",
+				"payments": [
+					{
+						"id": "2A4C9D290FEC4760966535F60C4281AB",
+						"paymentSystem": "201",
+						"paymentSystemName": "P*******************",
+						"value": 1798,
+						"installments": 1,
+						"referenceValue": 1798,
+						"cardHolder": null,
+						"cardNumber": null,
+						"firstDigits": null,
+						"lastDigits": null,
+						"cvv2": null,
+						"expireMonth": null,
+						"expireYear": null,
+						"url": null,
+						"giftCardId": null,
+						"giftCardName": null,
+						"giftCardCaption": null,
+						"redemptionCode": null,
+						"group": "promissory",
+						"tid": null,
+						"dueDate": null,
+						"connectorResponses": {},
+						"giftCardProvider": null,
+						"giftCardAsDiscount": null,
+						"koinUrl": null,
+						"accountId": null,
+						"parentAccountId": null,
+						"bankIssuedInvoiceIdentificationNumber": null,
+						"bankIssuedInvoiceIdentificationNumberFormatted": null,
+						"bankIssuedInvoiceBarCodeNumber": null,
+						"bankIssuedInvoiceBarCodeType": null,
+						"billingAddress": null,
+						"paymentOrigin": null
+					}
+				]
+			}
+		]
+	},
+	"cancellationRequests": null,
+	"invoiceData": null,
+	"clientProfileData": {
+		"id": "clientProfileData",
+		"email": "cintia.dauricio@qualitydigital.global",
+		"firstName": "A**",
+		"lastName": "T******",
+		"documentType": "cpf",
+		"document": "2**********",
+		"phone": "+5************",
+		"corporateName": null,
+		"tradeName": null,
+		"corporateDocument": null,
+		"stateInscription": null,
+		"corporatePhone": null,
+		"isCorporate": false,
+		"userProfileId": "19481b9e-544c-4e14-a1db-80fffdde30fb",
+		"userProfileVersion": null,
+		"customerClass": null,
+		"customerCode": null
+	},
+	"shippingData": {
+		"id": "shippingData",
+		"address": {
+			"addressType": "pickup",
+			"receiverName": "A** T******",
+			"addressId": "652",
+			"versionId": null,
+			"entityId": null,
+			"postalCode": "0****-0**",
+			"city": "S** P****",
+			"state": "SP",
+			"country": "BRA",
+			"street": "A****** S**** A****",
+			"number": "6***",
+			"neighborhood": "S**** A****",
+			"complement": "",
+			"reference": null,
+			"geoCoordinates": [
+				-51.4779552,
+				-0.0039779
+			]
+		},
+		"logisticsInfo": [
+			{
+				"itemIndex": 0,
+				"itemId": "138333",
+				"selectedDeliveryChannel": "pickup-in-point",
+				"selectedSla": "Retire na Loja (652)",
+				"lockTTL": "12d",
+				"price": 0,
+				"listPrice": 0,
+				"sellingPrice": 0,
+				"deliveryWindow": {
+					"startDateUtc": "2024-11-21T18:00:00+00:00",
+					"endDateUtc": "2024-11-21T19:00:59+00:00",
+					"price": 0
+				},
+				"deliveryCompany": null,
+				"shippingEstimate": "60m",
+				"shippingEstimateDate": "2024-11-21T18:00:00",
+				"slas": [
+					{
+						"id": "Retire na Loja (652)",
+						"name": "R*******************",
+						"shippingEstimate": "60m",
+						"shippingEstimateDate": "2024-11-21T18:00:00",
+						"deliveryWindow": {
+							"startDateUtc": "2024-11-21T18:00:00+00:00",
+							"endDateUtc": "2024-11-21T19:00:59+00:00",
+							"price": 0
+						},
+						"availableDeliveryWindows": [],
+						"deliveryIds": [
+							{
+								"courierId": "652_1",
+								"courierName": "V***********",
+								"dockId": "652",
+								"quantity": 2,
+								"warehouseId": "652",
+								"accountCarrierName": "h******************",
+								"kitItemDetails": []
+							}
+						],
+						"listPrice": 0,
+						"price": 0,
+						"deliveryChannel": "pickup-in-point",
+						"pickupStoreInfo": {
+							"additionalInfo": "- Aguarde o status \"Pronto para Retirada\".\n- Traga documento com foto e número do pedido.\n- Retire no endereço dentro do horário agendado.",
+							"address": {
+								"addressType": "pickup",
+								"receiverName": null,
+								"addressId": "652",
+								"versionId": null,
+								"entityId": null,
+								"postalCode": "0****-0**",
+								"city": "S** P****",
+								"state": "SP",
+								"country": "BRA",
+								"street": "A****** S**** A****",
+								"number": "6***",
+								"neighborhood": "S**** A****",
+								"complement": "",
+								"reference": null,
+								"geoCoordinates": [
+									-51.4779552,
+									-0.0039779
+								]
+							},
+							"dockId": null,
+							"friendlyName": "V***********",
+							"isPickupStore": true
+						},
+						"polygonName": "",
+						"lockTTL": "12d",
+						"pickupPointId": "hortifrutibrverbont_652",
+						"transitTime": "60m",
+						"pickupDistance": 0
+					}
+				],
+				"shipsTo": [
+					"BRA"
+				],
+				"deliveryIds": [
+					{
+						"courierId": "652_1",
+						"courierName": "V***********",
+						"dockId": "652",
+						"quantity": 2,
+						"warehouseId": "652",
+						"accountCarrierName": "h******************",
+						"kitItemDetails": []
+					}
+				],
+				"deliveryChannels": [
+					{
+						"id": "delivery",
+						"stockBalance": 0
+					},
+					{
+						"id": "pickup-in-point",
+						"stockBalance": 0
+					}
+				],
+				"deliveryChannel": null,
+				"pickupStoreInfo": {
+					"additionalInfo": "- Aguarde o status \"Pronto para Retirada\".\n- Traga documento com foto e número do pedido.\n- Retire no endereço dentro do horário agendado.",
+					"address": {
+						"addressType": "pickup",
+						"receiverName": null,
+						"addressId": "652",
+						"versionId": null,
+						"entityId": null,
+						"postalCode": "0****-0**",
+						"city": "S** P****",
+						"state": "SP",
+						"country": "BRA",
+						"street": "A****** S**** A****",
+						"number": "6***",
+						"neighborhood": "S**** A****",
+						"complement": "",
+						"reference": null,
+						"geoCoordinates": [
+							-51.4779552,
+							-0.0039779
+						]
+					},
+					"dockId": null,
+					"friendlyName": "V***********",
+					"isPickupStore": true
+				},
+				"addressId": "652",
+				"versionId": null,
+				"entityId": null,
+				"polygonName": "",
+				"pickupPointId": "hortifrutibrverbont_652",
+				"transitTime": "60m"
+			},
+			{
+				"itemIndex": 1,
+				"itemId": "100848",
+				"selectedDeliveryChannel": "pickup-in-point",
+				"selectedSla": "Retire na Loja (652)",
+				"lockTTL": "12d",
+				"price": 0,
+				"listPrice": 0,
+				"sellingPrice": 0,
+				"deliveryWindow": {
+					"startDateUtc": "2024-11-21T18:00:00+00:00",
+					"endDateUtc": "2024-11-21T19:00:59+00:00",
+					"price": 0
+				},
+				"deliveryCompany": null,
+				"shippingEstimate": "60m",
+				"shippingEstimateDate": "2024-11-21T18:00:00",
+				"slas": [
+					{
+						"id": "Retire na Loja (652)",
+						"name": "R*******************",
+						"shippingEstimate": "60m",
+						"shippingEstimateDate": "2024-11-21T18:00:00",
+						"deliveryWindow": {
+							"startDateUtc": "2024-11-21T18:00:00+00:00",
+							"endDateUtc": "2024-11-21T19:00:59+00:00",
+							"price": 0
+						},
+						"availableDeliveryWindows": [],
+						"deliveryIds": [
+							{
+								"courierId": "652_1",
+								"courierName": "V***********",
+								"dockId": "652",
+								"quantity": 1,
+								"warehouseId": "652",
+								"accountCarrierName": "h******************",
+								"kitItemDetails": []
+							}
+						],
+						"listPrice": 0,
+						"price": 0,
+						"deliveryChannel": "pickup-in-point",
+						"pickupStoreInfo": {
+							"additionalInfo": "- Aguarde o status \"Pronto para Retirada\".\n- Traga documento com foto e número do pedido.\n- Retire no endereço dentro do horário agendado.",
+							"address": {
+								"addressType": "pickup",
+								"receiverName": null,
+								"addressId": "652",
+								"versionId": null,
+								"entityId": null,
+								"postalCode": "0****-0**",
+								"city": "S** P****",
+								"state": "SP",
+								"country": "BRA",
+								"street": "A****** S**** A****",
+								"number": "6***",
+								"neighborhood": "S**** A****",
+								"complement": "",
+								"reference": null,
+								"geoCoordinates": [
+									-51.4779552,
+									-0.0039779
+								]
+							},
+							"dockId": null,
+							"friendlyName": "V***********",
+							"isPickupStore": true
+						},
+						"polygonName": "",
+						"lockTTL": "12d",
+						"pickupPointId": "hortifrutibrverbont_652",
+						"transitTime": "60m",
+						"pickupDistance": 0
+					}
+				],
+				"shipsTo": [
+					"BRA"
+				],
+				"deliveryIds": [
+					{
+						"courierId": "652_1",
+						"courierName": "V***********",
+						"dockId": "652",
+						"quantity": 1,
+						"warehouseId": "652",
+						"accountCarrierName": "h******************",
+						"kitItemDetails": []
+					}
+				],
+				"deliveryChannels": [
+					{
+						"id": "delivery",
+						"stockBalance": 0
+					},
+					{
+						"id": "pickup-in-point",
+						"stockBalance": 0
+					}
+				],
+				"deliveryChannel": null,
+				"pickupStoreInfo": {
+					"additionalInfo": "- Aguarde o status \"Pronto para Retirada\".\n- Traga documento com foto e número do pedido.\n- Retire no endereço dentro do horário agendado.",
+					"address": {
+						"addressType": "pickup",
+						"receiverName": null,
+						"addressId": "652",
+						"versionId": null,
+						"entityId": null,
+						"postalCode": "0****-0**",
+						"city": "S** P****",
+						"state": "SP",
+						"country": "BRA",
+						"street": "A****** S**** A****",
+						"number": "6***",
+						"neighborhood": "S**** A****",
+						"complement": "",
+						"reference": null,
+						"geoCoordinates": [
+							-51.4779552,
+							-0.0039779
+						]
+					},
+					"dockId": null,
+					"friendlyName": "V***********",
+					"isPickupStore": true
+				},
+				"addressId": "652",
+				"versionId": null,
+				"entityId": null,
+				"polygonName": "",
+				"pickupPointId": "hortifrutibrverbont_652",
+				"transitTime": "60m"
+			},
+			{
+				"itemIndex": 2,
+				"itemId": "101421",
+				"selectedDeliveryChannel": "pickup-in-point",
+				"selectedSla": "Retire na Loja (652)",
+				"lockTTL": "12d",
+				"price": 0,
+				"listPrice": 0,
+				"sellingPrice": 0,
+				"deliveryWindow": {
+					"startDateUtc": "2024-11-21T18:00:00+00:00",
+					"endDateUtc": "2024-11-21T19:00:59+00:00",
+					"price": 0
+				},
+				"deliveryCompany": null,
+				"shippingEstimate": "60m",
+				"shippingEstimateDate": "2024-11-21T18:00:00",
+				"slas": [
+					{
+						"id": "Retire na Loja (652)",
+						"name": "R*******************",
+						"shippingEstimate": "60m",
+						"shippingEstimateDate": "2024-11-21T18:00:00",
+						"deliveryWindow": {
+							"startDateUtc": "2024-11-21T18:00:00+00:00",
+							"endDateUtc": "2024-11-21T19:00:59+00:00",
+							"price": 0
+						},
+						"availableDeliveryWindows": [],
+						"deliveryIds": [
+							{
+								"courierId": "652_1",
+								"courierName": "V***********",
+								"dockId": "652",
+								"quantity": 2,
+								"warehouseId": "652",
+								"accountCarrierName": "h******************",
+								"kitItemDetails": []
+							}
+						],
+						"listPrice": 0,
+						"price": 0,
+						"deliveryChannel": "pickup-in-point",
+						"pickupStoreInfo": {
+							"additionalInfo": "- Aguarde o status \"Pronto para Retirada\".\n- Traga documento com foto e número do pedido.\n- Retire no endereço dentro do horário agendado.",
+							"address": {
+								"addressType": "pickup",
+								"receiverName": null,
+								"addressId": "652",
+								"versionId": null,
+								"entityId": null,
+								"postalCode": "0****-0**",
+								"city": "S** P****",
+								"state": "SP",
+								"country": "BRA",
+								"street": "A****** S**** A****",
+								"number": "6***",
+								"neighborhood": "S**** A****",
+								"complement": "",
+								"reference": null,
+								"geoCoordinates": [
+									-51.4779552,
+									-0.0039779
+								]
+							},
+							"dockId": null,
+							"friendlyName": "V***********",
+							"isPickupStore": true
+						},
+						"polygonName": "",
+						"lockTTL": "12d",
+						"pickupPointId": "hortifrutibrverbont_652",
+						"transitTime": "60m",
+						"pickupDistance": 0
+					}
+				],
+				"shipsTo": [
+					"BRA"
+				],
+				"deliveryIds": [
+					{
+						"courierId": "652_1",
+						"courierName": "V***********",
+						"dockId": "652",
+						"quantity": 2,
+						"warehouseId": "652",
+						"accountCarrierName": "h******************",
+						"kitItemDetails": []
+					}
+				],
+				"deliveryChannels": [
+					{
+						"id": "delivery",
+						"stockBalance": 0
+					},
+					{
+						"id": "pickup-in-point",
+						"stockBalance": 0
+					}
+				],
+				"deliveryChannel": null,
+				"pickupStoreInfo": {
+					"additionalInfo": "- Aguarde o status \"Pronto para Retirada\".\n- Traga documento com foto e número do pedido.\n- Retire no endereço dentro do horário agendado.",
+					"address": {
+						"addressType": "pickup",
+						"receiverName": null,
+						"addressId": "652",
+						"versionId": null,
+						"entityId": null,
+						"postalCode": "0****-0**",
+						"city": "S** P****",
+						"state": "SP",
+						"country": "BRA",
+						"street": "A****** S**** A****",
+						"number": "6***",
+						"neighborhood": "S**** A****",
+						"complement": "",
+						"reference": null,
+						"geoCoordinates": [
+							-51.4779552,
+							-0.0039779
+						]
+					},
+					"dockId": null,
+					"friendlyName": "V***********",
+					"isPickupStore": true
+				},
+				"addressId": "652",
+				"versionId": null,
+				"entityId": null,
+				"polygonName": "",
+				"pickupPointId": "hortifrutibrverbont_652",
+				"transitTime": "60m"
+			}
+		],
+		"trackingHints": [],
+		"selectedAddresses": [
+			{
+				"addressId": "652",
+				"versionId": null,
+				"entityId": null,
+				"addressType": "pickup",
+				"receiverName": "A** T******",
+				"street": "A****** S**** A****",
+				"number": "6***",
+				"complement": "",
+				"neighborhood": "S**** A****",
+				"postalCode": "0****-0**",
+				"city": "S** P****",
+				"state": "SP",
+				"country": "BRA",
+				"reference": null,
+				"geoCoordinates": [
+					-51.4779552,
+					-0.0039779
+				]
+			}
+		],
+		"availableAddresses": [
+			{
+				"addressId": "652",
+				"versionId": null,
+				"entityId": null,
+				"addressType": "pickup",
+				"receiverName": "A** T******",
+				"street": "A****** S**** A****",
+				"number": "6***",
+				"complement": "",
+				"neighborhood": "S**** A****",
+				"postalCode": "0****-0**",
+				"city": "S** P****",
+				"state": "SP",
+				"country": "BRA",
+				"reference": null,
+				"geoCoordinates": [
+					-51.4779552,
+					-0.0039779
+				]
+			}
+		],
+		"contactInformation": []
+	},
+	"items": [
+		{
+			"additionalInfo": {
+				"categoriesIds": "/2/35/",
+				"productClusterId": "155,165",
+				"commercialConditionId": "1",
+				"dimension": {
+					"cubicweight": 0,
+					"height": 10,
+					"length": 10,
+					"weight": 10,
+					"width": 10
+				},
+				"brandName": "H*********",
+				"brandId": "2000000",
+				"offeringInfo": null,
+				"offeringType": null,
+				"offeringTypeId": null
+			},
+			"sellerSku": "138333",
+			"priceTable": null,
+			"priceValidUntil": "2025-11-21T19:37:12Z",
+			"callCenterOperator": null,
+			"commission": 0,
+			"freightCommission": 0,
+			"taxCode": null,
+			"catalogProvider": "vrn:vtex.catalog-api-proxy:-:naturalterra:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/138333",
+			"uniqueId": "50852F9A946545DC8D1BEB7007A2A64F",
+			"id": "138333",
+			"productId": "138333",
+			"productRefId": "138333",
+			"refId": "138333",
+			"ean": null,
+			"name": "R***********************",
+			"skuName": "R***********************",
+			"modalType": null,
+			"parentItemIndex": null,
+			"parentAssemblyBinding": null,
+			"assemblies": [],
+			"tax": 0,
+			"price": 349,
+			"listPrice": 349,
+			"manualPrice": null,
+			"manualPriceAppliedBy": null,
+			"sellingPrice": 349,
+			"rewardValue": 0,
+			"isGift": false,
+			"preSaleDate": null,
+			"productCategoryIds": "/2/35/",
+			"productCategories": {
+				"2": "Bebidas",
+				"35": "Refrigerante"
+			},
+			"quantity": 2,
+			"seller": "hortifrutibrverbont",
+			"sellerChain": [
+				"hortifrutibrverbont"
+			],
+			"imageUrl": "https://hortifrutibr.vteximg.com.br/arquivos/ids/171259-80-80/REFRI-COCA-COLA-LT-220ML.jpg?v=638671094704900000",
+			"detailUrl": "/refri-coca-cola-lt-220ml/p",
+			"components": [],
+			"bundleItems": [],
+			"attachments": [],
+			"attachmentOfferings": [
+				{
+					"name": "O*********",
+					"required": false,
+					"schema": {
+						"Observacao": {
+							"maximumNumberOfCharacters": 150,
+							"domain": []
+						}
+					}
+				}
+			],
+			"offerings": [],
+			"priceTags": [],
+			"availability": "available",
+			"measurementUnit": "un",
+			"unitMultiplier": 1,
+			"manufacturerCode": null,
+			"priceDefinition": {
+				"calculatedSellingPrice": 349,
+				"total": 698,
+				"sellingPrices": [
+					{
+						"value": 349,
+						"quantity": 2
+					}
+				]
+			}
+		},
+		{
+			"additionalInfo": {
+				"categoriesIds": "/18/116/",
+				"productClusterId": "245,246",
+				"commercialConditionId": "1",
+				"dimension": {
+					"cubicweight": 0.2,
+					"height": 10,
+					"length": 10,
+					"weight": 10,
+					"width": 10
+				},
+				"brandName": "H*********",
+				"brandId": "2000000",
+				"offeringInfo": null,
+				"offeringType": null,
+				"offeringTypeId": null
+			},
+			"sellerSku": "100848",
+			"priceTable": null,
+			"priceValidUntil": "2025-11-21T19:37:14Z",
+			"callCenterOperator": null,
+			"commission": 0,
+			"freightCommission": 0,
+			"taxCode": null,
+			"catalogProvider": "vrn:vtex.catalog-api-proxy:-:naturalterra:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/100848",
+			"uniqueId": "65619ADA24DF4BB7A8CE187F33458FC9",
+			"id": "100848",
+			"productId": "100848",
+			"productRefId": "100848",
+			"refId": "100848",
+			"ean": null,
+			"name": "M***************",
+			"skuName": "M***************",
+			"modalType": null,
+			"parentItemIndex": null,
+			"parentAssemblyBinding": null,
+			"assemblies": [],
+			"tax": 0,
+			"price": 500,
+			"listPrice": 500,
+			"manualPrice": null,
+			"manualPriceAppliedBy": null,
+			"sellingPrice": 500,
+			"rewardValue": 0,
+			"isGift": false,
+			"preSaleDate": null,
+			"productCategoryIds": "/18/116/",
+			"productCategories": {
+				"18": "Prontinhos",
+				"116": "Frutas Cortadinhas"
+			},
+			"quantity": 1,
+			"seller": "hortifrutibrverbont",
+			"sellerChain": [
+				"hortifrutibrverbont"
+			],
+			"imageUrl": "https://hortifrutibr.vteximg.com.br/arquivos/ids/171260-80-80/Mamao-Cortadinho.jpg?v=638671094704900000",
+			"detailUrl": "/mamao-cortadinho/p",
+			"components": [],
+			"bundleItems": [],
+			"attachments": [],
+			"attachmentOfferings": [
+				{
+					"name": "O*********",
+					"required": false,
+					"schema": {
+						"Observacao": {
+							"maximumNumberOfCharacters": 150,
+							"domain": []
+						}
+					}
+				}
+			],
+			"offerings": [],
+			"priceTags": [],
+			"availability": "available",
+			"measurementUnit": "un",
+			"unitMultiplier": 1,
+			"manufacturerCode": null,
+			"priceDefinition": {
+				"calculatedSellingPrice": 500,
+				"total": 500,
+				"sellingPrices": [
+					{
+						"value": 500,
+						"quantity": 1
+					}
+				]
+			}
+		},
+		{
+			"additionalInfo": {
+				"categoriesIds": "/6/63/",
+				"productClusterId": "139,144",
+				"commercialConditionId": "1",
+				"dimension": {
+					"cubicweight": 0.1,
+					"height": 10,
+					"length": 10,
+					"weight": 10,
+					"width": 10
+				},
+				"brandName": "H*********",
+				"brandId": "2000000",
+				"offeringInfo": null,
+				"offeringType": null,
+				"offeringTypeId": null
+			},
+			"sellerSku": "101421",
+			"priceTable": null,
+			"priceValidUntil": "2025-11-21T19:37:32Z",
+			"callCenterOperator": null,
+			"commission": 0,
+			"freightCommission": 0,
+			"taxCode": null,
+			"catalogProvider": "vrn:vtex.catalog-api-proxy:-:naturalterra:master:/proxy/authenticated/catalog/pvt/sku/stockkeepingunitbyid/101421",
+			"uniqueId": "2EECF1A388FE4914B572C43127973107",
+			"id": "101421",
+			"productId": "101421",
+			"productRefId": "101421",
+			"refId": "101421",
+			"ean": null,
+			"name": "M********************",
+			"skuName": "M********************",
+			"modalType": null,
+			"parentItemIndex": null,
+			"parentAssemblyBinding": null,
+			"assemblies": [],
+			"tax": 0,
+			"price": 300,
+			"listPrice": 300,
+			"manualPrice": null,
+			"manualPriceAppliedBy": null,
+			"sellingPrice": 300,
+			"rewardValue": 0,
+			"isGift": false,
+			"preSaleDate": null,
+			"productCategoryIds": "/6/63/",
+			"productCategories": {
+				"6": "Hortifruti",
+				"63": "Frutas"
+			},
+			"quantity": 2,
+			"seller": "hortifrutibrverbont",
+			"sellerChain": [
+				"hortifrutibrverbont"
+			],
+			"imageUrl": "https://hortifrutibr.vteximg.com.br/arquivos/ids/171619-80-80/MACA-FUJI-SELECIONADA.jpg?v=638671094707100000",
+			"detailUrl": "/maca-fuji-selecionada/p",
+			"components": [],
+			"bundleItems": [],
+			"attachments": [],
+			"attachmentOfferings": [
+				{
+					"name": "O*********",
+					"required": false,
+					"schema": {
+						"Observacao": {
+							"maximumNumberOfCharacters": 150,
+							"domain": []
+						}
+					}
+				}
+			],
+			"offerings": [],
+			"priceTags": [],
+			"availability": "available",
+			"measurementUnit": "un",
+			"unitMultiplier": 1,
+			"manufacturerCode": null,
+			"priceDefinition": {
+				"calculatedSellingPrice": 300,
+				"total": 600,
+				"sellingPrices": [
+					{
+						"value": 300,
+						"quantity": 2
+					}
+				]
+			}
+		}
+	],
+	"sellers": [
+		{
+			"subSellerId": "1",
+			"fulfillmentEndpoint": "http://fulfillment.vtexcommerce.com.br/api/fulfillment?an=hortifrutibrverbont&affiliateId=SLR&sc=2",
+			"id": "hortifrutibrverbont",
+			"name": "V***********",
+			"logo": ""
+		}
+	],
+	"giftRegistryData": null,
+	"receiptData": null,
+	"contextData": null,
+	"marketPlaceOrderId": "",
+	"marketPlaceOrderGroup": null,
+	"marketplaceServicesEndpoint": null,
+	"orderFormId": "0b6c6f6aaf4143289f197b1a143820e7",
+	"sequence": "500005",
+	"affiliateId": "",
+	"status": "",
+	"callCenterOperator": "",
+	"userProfileId": "19481b9e-544c-4e14-a1db-80fffdde30fb",
+	"hostName": "n***********",
+	"creationVersion": null,
+	"creationEnvironment": null,
+	"lastChangeVersion": null,
+	"workflowInstanceId": null,
+	"marketplacePaymentValue": null,
+	"orderId": "1478200500005-01",
+	"orderGroup": "1478200500005",
+	"state": "payment-approved",
+	"isCheckedIn": false,
+	"sellerOrderId": "SLR-1478200500005-01",
+	"storeId": null,
+	"checkedInPickupPointId": null,
+	"value": 1798,
+	"totals": [
+		{
+			"id": "Items",
+			"name": "T**************",
+			"value": 1798
+		},
+		{
+			"id": "Discounts",
+			"name": "T******************",
+			"value": 0
+		},
+		{
+			"id": "Shipping",
+			"name": "T*************",
+			"value": 0
+		},
+		{
+			"id": "Tax",
+			"name": "T************",
+			"value": 0
+		},
+		{
+			"id": "Change",
+			"name": "C************",
+			"value": 0
+		}
+	],
+	"ratesAndBenefitsData": {
+		"rateAndBenefitsIdentifiers": [],
+		"teaser": []
+	},
+	"clientPreferencesData": {
+		"locale": "pt-BR",
+		"optinNewsLetter": false
+	},
+	"commercialConditionData": null,
+	"marketingData": null,
+	"storePreferencesData": {
+		"countryCode": "BRA",
+		"saveUserData": false,
+		"timeZone": "E. South America Standard Time",
+		"currencyCode": "BRL",
+		"currencyLocale": 1046,
+		"currencySymbol": "R$",
+		"currencyFormatInfo": {
+			"currencyDecimalDigits": 2,
+			"currencyDecimalSeparator": ",",
+			"currencyGroupSeparator": ".",
+			"currencyGroupSize": 3,
+			"startsWithCurrencySymbol": true
+		}
+	},
+	"openTextField": null,
+	"itemMetadata": null,
+	"taxData": null,
+	"customData": {
+		"customApps": [
+			{
+				"fields": {
+					"cartEtag": "4b257aa488615d495f74d48b69d83f64"
+				},
+				"id": "faststore",
+				"major": 1
+			},
+			{
+				"fields": {
+					"hasAccepted": "false"
+				},
+				"id": "changeproducts",
+				"major": 1
+			}
+		]
+	},
+	"hooksData": null,
+	"changeData": {
+		"changesData": []
+	},
+	"subscriptionData": null,
+	"salesChannel": "2",
+	"followUpEmail": "c**********************************.v***.c**.b*",
+	"creationDate": "2024-11-21T19:39:07.3958506Z",
+	"lastChange": "2024-11-21T21:40:34.7462114Z",
+	"timeZoneCreationDate": "2024-11-21T16:39:07.3958506",
+	"timeZoneLastChange": "2024-11-21T18:40:34.7462114",
+	"isCompleted": true,
+	"merchantName": "H******************",
+	"userType": "",
+	"roundingError": 0,
+	"allowEdition": false,
+	"allowCancellation": false,
+	"isUserDataVisible": false,
+	"allowChangeSeller": false,
+	"_accountInfo": {
+		"MainAccountName": "h***********",
+		"AccountName": "n***********",
+		"Cnpj": null,
+		"Id": "ba288cd9-f2a6-4aea-8ed1-89c45cb8edaa",
+		"AppId": null,
+		"IsActive": true,
+		"IsOperating": false,
+		"CreationDate": "2024-09-02T19:34:31.1467626Z",
+		"OperationDate": null,
+		"CompanyName": "A****************************************",
+		"TradingName": "N***************",
+		"City": null,
+		"Complement": null,
+		"Country": null,
+		"State": null,
+		"Address": null,
+		"District": null,
+		"Number": null,
+		"PostalCode": null,
+		"Licenses": [
+			7
+		],
+		"ParentAccountId": null,
+		"ParentAccountName": null,
+		"InactivationDate": null,
+		"Platform": "vtex",
+		"Privacy": null,
+		"HasPiiRestriction": false,
+		"Infra": null,
+		"Sponsor": "9878ce1b-25db-484b-8f3b-66927c9eceb8"
+	}
+}
